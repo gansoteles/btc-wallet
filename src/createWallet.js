@@ -31,7 +31,7 @@ let btcAddress = bitcoinjs.payments.p2pkh({
     network: network,
 }).address
 
-// Exibindo a carteira
+// Exibindo a carteira gerada
 console.log("Carteira gerada")
 console.log("Endereço: ", btcAddress)
 console.log("Chave Privada: ", node.toWIF())

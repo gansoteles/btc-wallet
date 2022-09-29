@@ -36,18 +36,3 @@ console.log("Carteira gerada")
 console.log("Endereço: ", btcAddress)
 console.log("Chave Privada: ", node.toWIF())
 console.log("Seed: ", mnemonic)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
